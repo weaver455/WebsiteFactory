@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+.slogan {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 10px 0 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+section section {
+    background: #fafafa;
+    margin-top: 20px;
+    box-shadow: none;
+    border: 1px solid #eaeaea;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ol,
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.list-columns {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.list-columns > div {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .list-columns {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+footer p,
+footer address {
+    margin: 5px 0;
+}
+
+address {
+    font-style: normal;
+}
+
+iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            border-radius: 8px; /* Optional rounded corners */
+        }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    table-layout: fixed;
+}
+
+caption {
+    color: #4CAF50;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+th,
+td {
+    width: 50%;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
