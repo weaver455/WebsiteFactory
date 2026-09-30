@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Factory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Factory</h1>
+        <p class="slogan">We Build Websites</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="customerinfo.html">Customer Forms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Customer Forms</h2>
+
+            <section>
+                <h3>Visit Us</h3>
+                <p>If you're planning on visiting our physical location, please fill out the form below:</p>
+
+                <form class="customer-form" action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone"><br><br>
+
+                    <label for="question1">Is this your first time visiting us?</label><br>
+                    <input type="radio" id="first_time_yes" name="question1" value="yes" required>
+                    <label for="first_time_yes">Yes</label><br>
+                    <input type="radio" id="first_time_no" name="question1" value="no">
+                    <label for="first_time_no">No</label><br><br>
+
+                    <label for="question2">What date are you planning on visiting us? NOTE: We are closed on Sundays</label><br>
+                    <input type="date" id="question2" name="question2" min="" required><br><br>
+                </form>
+            </section>
+
+            <section>
+                <h3>Create an Account</h3>
+                <p>Please enter a unique username and secure password:</p>
+
+                <form class="customer-form" action="submit_form.php" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                </form>
+            </section>
+        </section>
+
+    <footer>
+        <p>Website Builders. All rights reserved.</p>
+        <address>
+            <p>Address: 1750 Deptford Center Rd, Deptford, NJ 08096</p>
+            <p>Phone: (505) 842-5662</p>
+            <p>Email: help@websitebuilders.com</p>
+            <p>This website was created by Reston Weaver</p>
+        </address>
+    </footer>
+</body>
+</html>
+
+<!--  <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="website_idea">Brief Description of Your Website Idea:</label><br>
+                <textarea id="website_idea" name="website_idea" rows="4" cols="50" required></textarea><br><br>
+
+                <label for="bundle">Which Website Bundle(s) Are You Interested In? (Optional)</label><br>
+                <select id="bundle" name="bundle">
+                    <option value="">Select a bundle</option>
+                    <option value="budget">Budget Website</option>
+                    <option value="standard">Standard Website</option>
+                    <option value="premium">Premium Website</option>
+                </select><br><br>
+
+                <label for="questions">Any Questions or Concerns You May Have:</label><br>
+                <textarea id="questions" name="questions" rows="4" cols="50"></textarea><br><br> -->

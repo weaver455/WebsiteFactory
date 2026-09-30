@@ -70,6 +70,40 @@ section section {
     border: 1px solid #eaeaea;
 }
 
+.customer-form {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.customer-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.customer-form input,
+.customer-form textarea,
+.customer-form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.customer-form input[type="radio"] {
+    width: auto;
+    margin: 0 8px 0 0;
+}
+
+.customer-form input[type="radio"] + label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
 h1, h2, h3 {
     color: #4CAF50;
 }
