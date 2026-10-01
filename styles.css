@@ -170,6 +170,28 @@ footer address {
     margin: 5px 0;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    background: white;
+    color: #333;
+    text-decoration: none;
+}
+
 address {
     font-style: normal;
 }
