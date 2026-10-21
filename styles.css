@@ -104,6 +104,30 @@ section section {
     font-weight: 400;
 }
 
+.customer-submit {
+    text-align: center;
+}
+
+#submitCustomerBtn {
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 6px;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#submitCustomerBtn:hover {
+    background: #429a46;
+}
+
+#submitCustomerBtn:focus-visible {
+    outline: 3px solid #333;
+    outline-offset: 3px;
+}
+
 h1, h2, h3 {
     color: #4CAF50;
 }

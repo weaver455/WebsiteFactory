@@ -37,7 +37,15 @@
                     <input type="email" id="email" name="email" required><br><br>
 
                     <label for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone"><br><br>
+                    <input type="tel" id="phone" name="phone" inputmode="numeric" pattern="[0-9]+" required><br><br>
+
+                    <label for="bundle">Which bundle interests you?</label>
+                    <select id="bundle" name="bundle">
+                        <option value="">Choose a bundle (optional)</option>
+                        <option value="budget">Budget</option>
+                        <option value="standard">Standard</option>
+                        <option value="premium">Premium</option>
+                    </select>
 
                     <label for="question1">Is this your first time visiting us?</label><br>
                     <input type="radio" id="first_time_yes" name="question1" value="yes" required>
@@ -46,7 +54,7 @@
                     <label for="first_time_no">No</label><br><br>
 
                     <label for="question2">What date are you planning on visiting us? NOTE: We are closed on Sundays</label><br>
-                    <input type="date" id="question2" name="question2" min="" required><br><br>
+                    <input type="date" id="question2" name="question2" required><br><br>
                 </form>
             </section>
 
@@ -62,10 +70,13 @@
                     <input type="password" id="password" name="password" required><br><br>
                 </form>
             </section>
+
+            <div class="customer-submit">
+                <button id="submitCustomerBtn" type="button">Submit All Forms</button>
+            </div>
         </section>
 
-    <footer>
-        <p>Website Builders. All rights reserved.</p>
+    <footer>        <p>Website Builders. All rights reserved.</p>
         <address>
             <p>Address: 1750 Deptford Center Rd, Deptford, NJ 08096</p>
             <p>Phone: (505) 842-5662</p>
@@ -77,5 +88,6 @@
             <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
         </div>
     </footer>
+    <script src="customerinfo.js"></script>
 </body>
 </html>
